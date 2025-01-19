@@ -126,12 +126,12 @@ export default {
   created() {
     window.addEventListener("scroll", this.pageScroll);
     window.addEventListener("scroll", this.reveal);
-    window.addEventListener("scroll", this.animateParagraphRight);
+    // window.addEventListener("scroll", this.animateParagraphRight);
     window.addEventListener("scroll", this.animateParagraphLeft);
     window.addEventListener("scroll", this.animateHeadingLeft);
-    window.addEventListener("scroll", this.animateHeadingLeftBottom);
-    window.addEventListener("scroll", this.animateHeadingCenter);
-    window.addEventListener("scroll", this.animateCenterCards);
+    // window.addEventListener("scroll", this.animateHeadingLeftBottom);
+    // window.addEventListener("scroll", this.animateHeadingCenter);
+    // window.addEventListener("scroll", this.animateCenterCards);
   },
 };
 </script>

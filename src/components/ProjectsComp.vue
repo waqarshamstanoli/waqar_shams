@@ -168,7 +168,7 @@ export default {
         },
         {
           projectName: "FINANCIALS UNLIMITED",
-          projectImg: require("../assets/proteins.png"),
+          // projectImg: require("../assets/proteins.png"),
           projectDescription: "",
           projectLink: "",
         },
