@@ -1,5 +1,5 @@
 <template>
-    <v-footer color="blue">
+    <v-footer color="" class="header">
         <v-container fluid class="pa-md-8 pa-4">
             <v-row>
                 <v-col cols="12" lg="4" md="12" sm="12" class="">

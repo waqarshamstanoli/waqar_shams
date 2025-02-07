@@ -11,7 +11,7 @@
         <img @click="scrollTo(0)" src="../assets/WAQAR SHAMS.png" width="400px" height="60px" alt="" class="mt-4  ml-md-4 cursor-pointer" to="/"
           v-if="selectedItem != 'mdi-weather-night'" />
       </v-toolbar-items>
-
+hhkhkjkjkjk
       <v-toolbar-items class="hidden-sm-and-down mx-auto">
         <v-btn text large @click="scrollTo(0)" :class="{ activeButton: scrollPosition == 1150 }"
           class="text-capitalize btnText--text py-2"> About Me </v-btn>
@@ -29,8 +29,8 @@
       <v-menu offset-y left="true" rounded="lg">
         <template v-slot:activator="{ on }">
           <v-btn v-on="on" class=" menu elevation-0">
-            <v-icon color="icon" class="" v-on="on"> {{ selectedItem }} </v-icon>
-            <v-icon color="icon" class="ml-4"> mdi-chevron-down </v-icon>
+            <v-icon color="white" class="" v-on="on"> {{ selectedItem }} </v-icon>
+            <v-icon color="white" class="ml-4"> mdi-chevron-down </v-icon>
           </v-btn>
         </template>
 
@@ -51,7 +51,7 @@
       <v-toolbar-title class="mobile-title">
         <v-toolbar-items>
           <router-link to="/">
-          <img src="../assets/logo dark.png" height="60px" alt="" class="mt-4  ml-md-4 cursor-pointer" to="/"
+          <img src="../assets/WAQAR SHAMS.png" height="20px" alt="" class="mt-4  ml-md-4 cursor-pointer" to="/"
             v-if="selectedItem == 'mdi-weather-night'" />
           <img src="../assets/logo dark.png" height="60px" alt="" class="mt-4  ml-md-4 cursor-pointer" to="/"
             v-if="selectedItem != 'mdi-weather-night'" />
@@ -61,11 +61,11 @@
 
       <v-spacer></v-spacer>
       <!-- <v-spacer></v-spacer> -->
-      <v-menu offset-y left="true" rounded="lg">
+      <!-- <v-menu offset-y left="true" rounded="lg">
         <template v-slot:activator="{ on }">
           <v-btn v-on="on" class=" menu elevation-0">
-            <v-icon color="icon" class="" v-on="on"> {{ selectedItem }} </v-icon>
-            <v-icon color="icon"> mdi-chevron-down </v-icon>
+            <v-icon color="white" class="" v-on="on"> {{ selectedItem }} </v-icon>
+            <v-icon color="white"> mdi-chevron-down </v-icon>
           </v-btn>
         </template>
 
@@ -77,7 +77,7 @@
             <v-list-item-title>{{ item.name }}</v-list-item-title>
           </v-list-item>
         </v-list>
-      </v-menu>
+      </v-menu> -->
       <div class="text-right">
         <v-app-bar-nav-icon class="mbl-nav-icon" @click="toggleMenu"></v-app-bar-nav-icon>
       </div>
@@ -247,12 +247,7 @@ export default {
 		.visible {
 			visibility: visible;
 		} */
-.selector {
-  /* border: 1px solid gainsboro; */
-  background: transparent;
-  position: relative;
-  z-index: 1;
-}
+
 
 ul {
   /* width: 100%; */
@@ -269,13 +264,9 @@ ul {
   padding: 10px 25px 10px 10px;
 }
 
-.topBarOpacity {
-  opacity: 0.8;
-}
 
-.activeButton {
-  background-color: #ffec00;
-}
+
+
 
 .mbl-navbar {
   display: none;
@@ -291,26 +282,11 @@ ul {
    Scale up the image by 10% 
 }*/
 
-.content-container {
-  position: fixed;
-  top: 17%;
-  left: 0;
-  width: 100%;
-  height: fit-content;
-  z-index: 1000;
 
-}
 
-.dialog-wrapper {
-  background-color: #ffffff;
-  /* Background color of the dialog */
-  padding: 20px;
 
-}
 
-.dialog-content {
-  max-width: 100%;
-}
+
 
 
 @media only screen and (max-width: 767px) {

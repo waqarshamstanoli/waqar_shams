@@ -104,8 +104,8 @@ export default {
     text-fill-color: transparent;
 }
 .header{
-   background: linear-gradient(90deg, #6b4ef8,  #0ea5ea, #6b4ef8);
-    
+   background: linear-gradient(90deg, #6b4ef8,  #0ea5ea, #6b4ef8); 
+   
 }
 .v-btn.v-size--large {
   transition: all 0.15s ease-in-out;
@@ -152,6 +152,9 @@ export default {
 .custom.theme--dark.v-card {
     background-color: rgb(12,69,119,0.1) !important;
     color: #FFFFFF;
+}
+.slick-dots{
+  color: #0ea5ea !important;
 }
 
 
