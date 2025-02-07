@@ -153,12 +153,25 @@ export default {
     background-color: rgb(12,69,119,0.1) !important;
     color: #FFFFFF;
 }
-.slick-dots{
-  color: #0ea5ea !important;
+.slick-dots li{
+  width: 20px !important; 
+  height: 4px !important; 
 }
 
 
+ .slick-dots li button:before {
+  color: #0ea5ea !important; 
+  content: ""; 
+  font-size: 8px !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+}
 
+.slick-dots li.slick-active button:before {
+  color: #0ea5ea !important; 
+  
+}
 
 
 

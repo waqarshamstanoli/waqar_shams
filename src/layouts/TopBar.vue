@@ -11,7 +11,7 @@
         <img @click="scrollTo(0)" src="../assets/WAQAR SHAMS.png" width="400px" height="60px" alt="" class="mt-4  ml-md-4 cursor-pointer" to="/"
           v-if="selectedItem != 'mdi-weather-night'" />
       </v-toolbar-items>
-hhkhkjkjkjk
+
       <v-toolbar-items class="hidden-sm-and-down mx-auto">
         <v-btn text large @click="scrollTo(0)" :class="{ activeButton: scrollPosition == 1150 }"
           class="text-capitalize btnText--text py-2"> About Me </v-btn>
