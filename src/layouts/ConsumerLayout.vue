@@ -53,6 +53,10 @@ export default {
 </script>
 
 <style lang="scss">
+.cusotmCol.col-12 {
+    flex: 0 0 100%;
+    max-width: 50% !important;
+}
 .v-application .text--h2 {
   line-height: 0.9em !important;
   font-size: 64px !important;

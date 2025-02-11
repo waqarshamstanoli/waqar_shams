@@ -10,7 +10,7 @@
       </v-col>
       
 
-      <v-col cols="12" lg="2" md="4" sm="6" class="paragraphLeft" v-for="skill in skills" :key="skill">
+      <v-col cols="12" lg="2" md="4" sm="6" class="paragraphLeft cusotmCol" v-for="skill in skills" :key="skill">
         <v-card outlined width="200" class="mx-auto custom borderRadius py-16">
           <div class="text-center">
             <img :src="skill.img" width="50" class="" alt="" />
