@@ -44,7 +44,7 @@
                             </v-card-actions>
                         </v-card>
                     </v-dialog>
-                    <div :class="{ 'mt-0': !$vuetify.breakpoint.mdAndUp, 'social-links': $vuetify.breakpoint.mdAndUp }"
+                    <div :class="{ 'mt-4': !$vuetify.breakpoint.mdAndUp, 'social-links': $vuetify.breakpoint.mdAndUp }"
                         style="display: flex;gap: 10px;">
                         <a v-if="this.$vuetify.theme.dark" href="https://www.facebook.com/waqar.shams1">
                         <svg  width="44" height="44" viewBox="0 0 44 44" fill="none"
@@ -165,7 +165,7 @@
                                 <v-list-item two-line class="btnText--text   pl-0">
                                     <v-list-item-icon class=" mr-2 mt-3">
                                          <a href="mailto:waqar.shamstanoli@gmail.com">
-                                        <v-icon>mdi-email</v-icon>
+                                        <v-icon>mdi-email-outline</v-icon>
                                     </a>
                                     </v-list-item-icon>
                                     <v-list-item-content class="pt-0">
