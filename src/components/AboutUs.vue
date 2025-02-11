@@ -1,5 +1,23 @@
 <template>
       <v-container>
+        <v-col class="" cols="12" lg="4" md="6" sm="12" order-lg="2">
+          <div class="d-flex justify-space-between about_2">
+            <div :key="animationKey" class="animated-div">
+          <img src="../assets/pattern-1.svg" alt="" width="20">
+        </div>
+          <div class="bouncing-element">
+        </div>
+          <div class="text-center">
+          <!-- <img src="../assets/banner.png" alt="" class="mt-md-16" width="100%"> -->
+        </div>
+          
+          <div :key="animationKey" class="cross-2">
+          <img src="../assets/pattern-2.svg" alt="" width="20"></div>
+          
+        <div class="bouncing-element2">
+        </div> 
+        </div>
+        </v-col>
       <v-row class="justify-space-around" >
         <v-col cols="12"   lg="4" md="6" sm="12" >
           <v-card
@@ -23,24 +41,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col class="" cols="12" lg="4" md="6" sm="12">
-          <div class="d-flex justify-space-between about_2">
-            <div :key="animationKey" class="animated-div">
-          <img src="../assets/pattern-1.svg" alt="" width="20">
-        </div>
-          <div class="bouncing-element">
-        </div>
-          <div class="text-center">
-          <!-- <img src="../assets/banner.png" alt="" class="mt-md-16" width="100%"> -->
-        </div>
-          
-          <div :key="animationKey" class="cross-2">
-          <img src="../assets/pattern-2.svg" alt="" width="20"></div>
-          
-        <div class="bouncing-element2">
-        </div> 
-        </div>
-        </v-col>
+        
        
       </v-row>
      
