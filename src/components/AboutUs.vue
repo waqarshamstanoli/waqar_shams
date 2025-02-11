@@ -1,6 +1,28 @@
 <template>
       <v-container>
-        <v-col class="" cols="12" lg="4" md="6" sm="12" order-lg="2">
+      <v-row class="justify-space-around" >
+        <v-col cols="12"   lg="4" md="6" sm="12" >
+          <v-card
+            color="transparent"
+            class="elevation-0  marginTop"           
+          >
+            <v-card-text>
+              <h4 class="text-subtitle-2 font-weight-bold gray--text headingLeft">
+                Hello Everyone!
+              </h4>
+              <h2 class="intro_text secondary--text  headingLeft mt-4">
+                I'm <span class="header-text"> {{ typedText }} </span>
+              </h2>  
+              <p class="text-body-1 gray--text font-weight-regular mt-8">
+                Hello there! I'm Waqar, a passionate Full Stack Developer dedicated to building dynamic and scalable web applications. With expertise in Vue.js, Nuxt.js, React.js, Next.js, Node.js, and MongoDB, along with Vuetify, Tailwind CSS, Bootstrap, HTMLand CSS, I craft seamless digital experiences that are both high-performing and visually engaging.              </p>
+              <div class="d-flex mt-16" style="border: 1px solid #56D3DB; border-radius: 8px; background-color: #222F43; padding: 12px 12px 8px 8px; width:100%">
+              <v-text-field outlined dense label="Type Your Email Address" >   </v-text-field>
+              <v-btn  class="py-5 ml-md-12 ml-8 white--text text-capitalize subscribe-button">Subscribe<v-icon size="small" class="ml-2">mdi-arrow-right</v-icon></v-btn>
+            </div>
+            </v-card-text>
+          </v-card>
+        </v-col>
+        <v-col class="" cols="12" lg="4" md="6" sm="12">
           <div class="d-flex justify-space-between about_2">
             <div :key="animationKey" class="animated-div">
           <img src="../assets/pattern-1.svg" alt="" width="20">
@@ -18,30 +40,6 @@
         </div> 
         </div>
         </v-col>
-      <v-row class="justify-space-around" >
-        <v-col cols="12"   lg="4" md="6" sm="12" >
-          <v-card
-            color="transparent"
-            class="elevation-0  marginTop"           
-          >
-            <v-card-text>
-              <h4 class="text-subtitle-2 font-weight-bold gray--text headingLeft">
-                Hello Everyone!
-              </h4>
-              <h2 class="intro_text secondary--text  headingLeft mt-4">
-                I'm <span class="header-text"> {{ typedText }} </span>
-              </h2>  
-              <p class="text-body-1 gray--text font-weight-regular mt-8">
-                Hello there! I'm Waqar, a passionate Full Stack Developer with a knack for turning ideas into immersive digital experiences. With a rich toolbox boasting Vue.js, Nuxt.js, React.js, Next.js, along with HTML, CSS, Bootstrap, and WordPress, I orchestrate web magic that captivates and engages.
-              </p>
-              <div class="d-flex mt-16" style="border: 1px solid #56D3DB; border-radius: 8px; background-color: #222F43; padding: 12px 12px 8px 8px; width:100%">
-              <v-text-field outlined dense label="Type Your Email Address" >   </v-text-field>
-              <v-btn  class="py-5 ml-md-12 ml-8 white--text text-capitalize subscribe-button">Subscribe<v-icon size="small" class="ml-2">mdi-arrow-right</v-icon></v-btn>
-            </div>
-            </v-card-text>
-          </v-card>
-        </v-col>
-        
        
       </v-row>
      

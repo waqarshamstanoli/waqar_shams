@@ -16,7 +16,7 @@
                                     <v-text-field v-model="formData.email" :rules="emailRules" name="Email"
                                         label="E-mail" hide-details required></v-text-field>
                                 </v-col>
-                                <v-col cols="12" md="8" class="text-center">
+                                <v-col cols="12" md="8" class="">
                                     <v-btn type="submit" :disabled="!valid" color="primary">Submit</v-btn>
                                 </v-col>
                             </v-row>
@@ -196,16 +196,7 @@
                         <v-col cols="12" lg="9" md="12" sm="12" class="pt-0">
                             <v-card width="100%" color="transparent" elevation="0" class="pr-md-16">
                                 <p class="grey2--text text-caption btnText--text">
-                                    Hello there! I'm Waqar, a passionate
-                                    Full Stack
-                                    Developer with a knack for turning ideas into immersive digital experiences. With a
-                                    rich toolbox boasting Vue.js, Nuxt.js, React.js, Next.js, along with HTML, CSS,
-                                    Bootstrap, and WordPress, I orchestrate web magic that captivates and engages.
-                                    🚀 Whether it's crafting pixel-perfect user interfaces, architecting seamless user
-                                    experiences, or breathing life into creative concepts, I thrive on the cutting edge
-                                    of web development. From sleek and responsive single-page applications to dynamic,
-                                    data-driven websites, I wield the power of modern frameworks and technologies to
-                                    bring visions to life.</p>
+                                    Hello there! I'm Waqar, a passionate Full Stack Developer with a knack for transforming ideas into seamless digital experiences. My expertise spans Vue.js, Nuxt.js, React.js, Next.js, Node.js, and MongoDB, along with Vuetify, Tailwind CSS, Bootstrap, HTMLand CSS, allowing me to craft high-performing and visually engaging applications. 🚀 Whether designing pixel-perfect user interfaces, optimizing user experiences, or developing robust web solutions, I thrive on leveraging modern frameworks and cutting-edge technologies to bring creative visions to life.</p>
                             </v-card>
                         </v-col>
                     </v-row>
