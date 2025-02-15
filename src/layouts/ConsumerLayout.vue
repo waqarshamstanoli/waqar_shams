@@ -55,7 +55,7 @@ export default {
 <style lang="scss">
 .cusotmCol.col-12 {
     flex: 0 0 100%;
-    max-width: 50% !important;
+    max-width: 50%;
 }
 .v-application .text--h2 {
   line-height: 0.9em !important;
